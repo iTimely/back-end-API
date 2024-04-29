@@ -2,8 +2,7 @@ package staff.Api.request;
 
 import lombok.*;
 
-import staff.Api.entity.Turma;
-import staff.Api.entity.TurmaList;
+import staff.Api.model.TurmaList;
 
 import java.util.List;
 

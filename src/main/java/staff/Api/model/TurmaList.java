@@ -1,4 +1,4 @@
-package staff.Api.entity;
+package staff.Api.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

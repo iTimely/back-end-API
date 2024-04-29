@@ -2,7 +2,12 @@ package staff.Api.entity;
 
 import lombok.*;
 import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.DocumentReference;
+import staff.Api.dto.TurmaDto;
+import staff.Api.model.Endereco;
+import staff.Api.model.Presenca;
+import staff.Api.model.Responsavel;
+
+import java.util.List;
 
 @Getter
 @Setter
@@ -12,11 +17,11 @@ import org.springframework.data.mongodb.core.mapping.DocumentReference;
 public class Aluno {
     @Id
     private String id;
-    private String turma;
+    private String nomeCompleto;
     private Integer idade;
-    @DocumentReference
-    private Responsavel responsavel;
-    @DocumentReference
     private Endereco endereco;
+    private List<Responsavel> responsaveis;
+    private List<Presenca> presencas;
+    private TurmaDto turma;
 
 }

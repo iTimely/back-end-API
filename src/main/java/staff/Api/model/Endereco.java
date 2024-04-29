@@ -1,4 +1,4 @@
-package staff.Api.entity;
+package staff.Api.model;
 
 import lombok.Data;
 
@@ -8,7 +8,7 @@ public class Endereco {
     private String cidade;
     private String numero;
     private String bairro;
-    private String cep;
+    private String CEP;
     private String estado;
 
 }

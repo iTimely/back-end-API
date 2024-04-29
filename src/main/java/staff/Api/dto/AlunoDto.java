@@ -1,7 +1,7 @@
 package staff.Api.dto;
 
 import lombok.*;
-import staff.Api.entity.Responsavel;
+import staff.Api.model.Responsavel;
 
 @Getter
 @Setter

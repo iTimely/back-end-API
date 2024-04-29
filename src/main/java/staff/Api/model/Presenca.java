@@ -1,4 +1,4 @@
-package staff.Api.entity;
+package staff.Api.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -8,6 +8,8 @@ import lombok.Setter;
 @Getter
 @Setter
 public class Presenca {
-    private String alunoId;
+    private String materia;
+    private String data;
+    private String periodo;
     private Boolean presenca;
 }
