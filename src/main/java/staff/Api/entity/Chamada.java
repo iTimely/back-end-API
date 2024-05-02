@@ -2,8 +2,8 @@ package staff.Api.entity;
 
 import lombok.*;
 import org.springframework.data.annotation.Id;
-import staff.Api.model.PresencaLIst;
-import staff.Api.model.ProfessorLIst;
+import staff.Api.model.PresencaList;
+import staff.Api.model.ProfessorList;
 
 import java.util.List;
 
@@ -12,12 +12,12 @@ import java.util.List;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class chamda {
+public class Chamada {
     @Id
     private String id;
-    private ProfessorLIst professor;
+    private ProfessorList professor;
     private String data;
     private String periodo;
     private String turmaId;
-    private List<PresencaLIst> registroPresencas;
+    private List<PresencaList> registoPresencas;
 }

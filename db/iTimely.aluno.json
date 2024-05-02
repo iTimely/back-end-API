@@ -1,0 +1,1975 @@
+[{
+  "_id": {
+    "$oid": "662ab30fa21fcd3b222cb926"
+  },
+  "nomeCompleto": "Elias Souza Junior",
+  "idade": 10,
+  "endereco": {
+    "logradouro": "Rua Arnaldo Coelho",
+    "cidade": "São Paulo",
+    "numero": 931,
+    "bairro": "São Pedro",
+    "CEP": "23130-124"
+  },
+  "responsaveis": [
+    {
+      "nomeCompleto": "Fernanda Souza",
+      "email": "fernanda_souza@gmail.com",
+      "telefone": "11 87632-9877",
+      "cpf": "123.123.132.32"
+    },
+    {
+      "nomeCompleto": "elias Souza",
+      "email": "Elias_souza@gmail.com",
+      "telefone": "11 87632-9877",
+      "cpf": "123.123.132.32"
+    }
+  ],
+  "presencas": [
+    {
+      "materia": "Matematica",
+      "data": "10/04/2024",
+      "periodo": "1° aula",
+      "presenca": true,
+      "alunoId": ""
+    },
+    {
+      "materia": "Matematica",
+      "data": "10/04/2024",
+      "periodo": "2° aula",
+      "presenca": true,
+      "alunoId": ""
+    },
+    {
+      "materia": "Matematica",
+      "data": "11/04/2024",
+      "periodo": "2° aula",
+      "presenca": true,
+      "alunoId": ""
+    },
+    {
+      "materia": "pedagoria (geral)",
+      "data": "2024-05-01",
+      "periodo": "manhã",
+      "presenca": true,
+      "alunoId": "662ab30fa21fcd3b222cb926"
+    }
+  ],
+  "turma": {
+    "nome": "5°A"
+  },
+  "_class": "staff.Api.entity.Aluno"
+},
+{
+  "_id": {
+    "$oid": "662ae181a21fcd3b222cb93a"
+  },
+  "nomeCompleto": "Maria Silva",
+  "idade": 10,
+  "endereco": {
+    "logradouro": "Av joão firmino",
+    "bairro": "Assunção",
+    "cidade": "São Paulo",
+    "Estado": "SP",
+    "CEP": "8710-222",
+    "numero": 50
+  },
+  "responsaveis": [
+    {
+      "nomeCompleto": "Ana Silva",
+      "email": "ana_silva@gmail.com",
+      "telefone": "11 98765-4321",
+      "cpf": "321.321.321.32"
+    }
+  ],
+  "presencas": [
+    {
+      "materia": "Português",
+      "data": "2024-04-10",
+      "presenca": true,
+      "periodo": "1° aula",
+      "alunoId": ""
+    },
+    {
+      "materia": "Português",
+      "data": "2024-04-10",
+      "presenca": true,
+      "periodo": "2° aula",
+      "alunoId": ""
+    },
+    {
+      "materia": "Português",
+      "data": "2024-04-11",
+      "presenca": false,
+      "periodo": "1° aula",
+      "alunoId": ""
+    }
+  ],
+  "turma": {
+    "turmaId": "",
+    "nome": "5°B"
+  }
+},
+{
+  "_id": {
+    "$oid": "662ae19aa21fcd3b222cb93b"
+  },
+  "nomeCompleto": "Pedro Oliveira",
+  "idade": 10,
+  "endereco": {
+    "logradouro": "Rua joão firmino",
+    "cidade": "Santo André",
+    "numero": 111,
+    "bairro": "Silvina",
+    "CEP": "8710-222"
+  },
+  "responsaveis": [
+    {
+      "nomeCompleto": "João Oliveira",
+      "email": "joao_oliveira@gmail.com",
+      "telefone": "11 98765-1234",
+      "cpf": "456.456.456.45"
+    }
+  ],
+  "presencas": [
+    {
+      "materia": "Ciências",
+      "data": "2024-04-10",
+      "periodo": "1° aula",
+      "presenca": true,
+      "alunoId": ""
+    },
+    {
+      "materia": "Ciências",
+      "data": "2024-04-10",
+      "periodo": "2° aula",
+      "presenca": true,
+      "alunoId": ""
+    },
+    {
+      "materia": "Ciências",
+      "data": "2024-04-11",
+      "periodo": "1° aula",
+      "presenca": true,
+      "alunoId": ""
+    },
+    {
+      "materia": "pedagoria (geral)",
+      "data": "2024-05-01",
+      "periodo": "manhã",
+      "presenca": true,
+      "alunoId": "662ae19aa21fcd3b222cb93b"
+    }
+  ],
+  "turma": {
+    "nome": "5°A"
+  },
+  "_class": "staff.Api.entity.Aluno"
+},
+{
+  "_id": {
+    "$oid": "662ae1cea21fcd3b222cb93c"
+  },
+  "nomeCompleto": "Juliana Santos",
+  "idade": 10,
+  "endereco": {
+    "logradouro": "Rua Paulo Nogueira",
+    "cidade": "São Paulo",
+    "bairro": "São Pedro",
+    "CEP": "8711-124"
+  },
+  "responsaveis": [
+    {
+      "nomeCompleto": "Marcos Santos",
+      "email": "marcos_santos@gmail.com",
+      "telefone": "11 98765-5678",
+      "cpf": "789.789.789.78"
+    },
+    {
+      "nomeCompleto": "Marcela de Souza",
+      "email": "marcelaDeSouza@gmail.com",
+      "telefone": "11 2313-5678",
+      "cpf": "111.789.789.66"
+    }
+  ],
+  "presencas": [
+    {
+      "materia": "Ciência",
+      "data": "2024-04-10",
+      "periodo": "1° aula",
+      "presenca": true,
+      "alunoId": ""
+    },
+    {
+      "materia": "Artes",
+      "data": "2024-04-10",
+      "periodo": "2° aula",
+      "presenca": true,
+      "alunoId": ""
+    },
+    {
+      "materia": "Artes",
+      "data": "2024-04-11",
+      "periodo": "1° aula",
+      "presenca": true,
+      "alunoId": ""
+    },
+    {
+      "materia": "pedagoria (geral)",
+      "data": "2024-05-01",
+      "periodo": "manhã",
+      "presenca": true,
+      "alunoId": "662ae1cea21fcd3b222cb93c"
+    }
+  ],
+  "turma": {
+    "nome": "5°A"
+  },
+  "_class": "staff.Api.entity.Aluno"
+},
+{
+  "_id": {
+    "$oid": "662ae1dca21fcd3b222cb93d"
+  },
+  "nomeCompleto": "Lucas Oliveira",
+  "idade": 9,
+  "endereco": {
+    "logradouro": "Rua Gigante Afonso",
+    "número": 11,
+    "bairro": "Vila Kalux",
+    "cidade": "São Bernardo do Campo",
+    "Estado": "SP",
+    "CEP": "8710-124"
+  },
+  "responsaveis": [
+    {
+      "nomeCompleto": "Fernanda Oliveira",
+      "email": "fernanda_oliveira@gmail.com",
+      "telefone": "11 98765-8765",
+      "cpf": "987.987.987.98"
+    },
+    {
+      "nomeCompleto": "Luiz Castro",
+      "email": "luiz_castro@gmail.com",
+      "telefone": "11 23213-8765",
+      "cpf": "987.111.987.11"
+    }
+  ],
+  "presencas": [
+    {
+      "materia": "Português",
+      "data": "2024-04-10",
+      "presenca": true,
+      "periodo": "1° aula",
+      "alunoId": ""
+    },
+    {
+      "materia": "Matematica",
+      "data": "2024-04-10",
+      "presenca": true,
+      "periodo": "2° aula",
+      "alunoId": ""
+    },
+    {
+      "materia": "Artes",
+      "data": "2024-04-11",
+      "presenca": false,
+      "periodo": "1° aula",
+      "alunoId": ""
+    }
+  ],
+  "turma": {
+    "turmaId": "",
+    "nome": "4°B"
+  }
+},
+{
+  "_id": {
+    "$oid": "662ae1eaa21fcd3b222cb93e"
+  },
+  "nomeCompleto": "Ana Pereira",
+  "idade": 8,
+  "endereco": {
+    "logradouro": "Rua Assunção",
+    "número": 111,
+    "bairro": "São Bernardo do Campo",
+    "cidade": "São Bernardo do Campo",
+    "Estado": "SP",
+    "CEP": "8710-121"
+  },
+  "responsaveis": [
+    {
+      "nomeCompleto": "Pedro Pereira",
+      "email": "pedro_pereira@gmail.com",
+      "telefone": "11 98765-4321",
+      "cpf": "654.654.654.65"
+    }
+  ],
+  "presencas": [
+    {
+      "materia": "Artes",
+      "data": "2024-04-10",
+      "presenca": true,
+      "periodo": "1° aula",
+      "alunoId": ""
+    },
+    {
+      "materia": "Artes",
+      "data": "2024-04-10",
+      "presenca": true,
+      "periodo": "2° aula",
+      "alunoId": ""
+    },
+    {
+      "materia": "Artes",
+      "data": "2024-04-11",
+      "presenca": true,
+      "periodo": "1° aula",
+      "alunoId": ""
+    }
+  ],
+  "turma": {
+    "turmaId": "",
+    "nome": "3°A"
+  }
+},
+{
+  "_id": {
+    "$oid": "662ae26ca21fcd3b222cb93f"
+  },
+  "nomeCompleto": "Laura Oliveira",
+  "idade": 8,
+  "endereco": {
+    "logradouro": "Rua Alberto Alencar",
+    "número": 19,
+    "bairro": "São Pedro",
+    "cidade": "São Paulo",
+    "Estado": "SP",
+    "CEP": "8710-124"
+  },
+  "responsaveis": [
+    {
+      "nomeCompleto": "Fernanda Oliveira",
+      "email": "fernanda_oliveira@gmail.com",
+      "telefone": "11 98765-8765",
+      "cpf": "987.987.987.98"
+    }
+  ],
+  "presencas": [
+    {
+      "materia": "Matemática",
+      "data": "2024-04-10",
+      "presenca": true,
+      "periodo": "1° aula"
+    },
+    {
+      "materia": "Matemática",
+      "data": "2024-04-10",
+      "presenca": true,
+      "periodo": "2° aula"
+    },
+    {
+      "materia": "Matemática",
+      "data": "2024-04-11",
+      "presenca": false,
+      "periodo": "1° aula"
+    }
+  ],
+  "turma": {
+    "turmaId": "",
+    "nome": "3°B"
+  }
+},
+{
+  "_id": {
+    "$oid": "662ae27aa21fcd3b222cb940"
+  },
+  "nomeCompleto": "Pedro Santos",
+  "idade": 7,
+  "endereco": {
+    "logradouro": "Rua Antonio de Silveira",
+    "número": 99,
+    "bairro": "Centro",
+    "cidade": "São Bernardo do Campo",
+    "Estado": "SP",
+    "CEP": "8710-124"
+  },
+  "responsaveis": [
+    {
+      "nomeCompleto": "João Santos",
+      "email": "joao_santos@gmail.com",
+      "telefone": "11 98765-4321",
+      "cpf": "654.654.654.65"
+    }
+  ],
+  "presencas": [
+    {
+      "materia": "Ciência",
+      "data": "2024-04-10",
+      "presenca": true,
+      "periodo": "1° aula",
+      "alunoId": ""
+    },
+    {
+      "materia": "Portugues",
+      "data": "2024-04-10",
+      "presenca": true,
+      "periodo": "2° aula",
+      "alunoId": ""
+    },
+    {
+      "materia": "Matematica",
+      "data": "2024-04-11",
+      "presenca": false,
+      "periodo": "1° aula",
+      "alunoId": ""
+    }
+  ],
+  "turma": {
+    "turmaId": "",
+    "nome": "2°A"
+  }
+},
+{
+  "_id": {
+    "$oid": "662ae296a21fcd3b222cb941"
+  },
+  "nomeCompleto": "Sophia Lima",
+  "idade": 10,
+  "endereco": {
+    "logradouro": "Av. Paulistano",
+    "número": 90,
+    "bairro": "São Pedro",
+    "cidade": "São Paulo",
+    "Estado": "SP",
+    "CEP": "11241-124"
+  },
+  "responsaveis": [
+    {
+      "nomeCompleto": "Ana Lima",
+      "email": "ana_lima@gmail.com",
+      "telefone": "11 98765-1234",
+      "cpf": "321.321.321.32"
+    },
+    {
+      "nomeCompleto": "Bruna Marchi",
+      "email": "brunamarchi@gmail.com",
+      "telefone": "11 98732-9831",
+      "cpf": "963.321.321.32"
+    }
+  ],
+  "presencas": [
+    {
+      "materia": "Matematica",
+      "data": "2024-04-10",
+      "presenca": true,
+      "periodo": "1° aula",
+      "alunoId": ""
+    },
+    {
+      "materia": "Português",
+      "data": "2024-04-10",
+      "presenca": true,
+      "periodo": "2° aula",
+      "alunoId": ""
+    },
+    {
+      "materia": "Português",
+      "data": "2024-04-11",
+      "presenca": false,
+      "periodo": "1° aula",
+      "alunoId": ""
+    }
+  ],
+  "turma": {
+    "turmaId": "",
+    "nome": "4°B"
+  }
+},
+{
+  "_id": {
+    "$oid": "662ae2daa21fcd3b222cb942"
+  },
+  "nomeCompleto": "Julia Ferreira",
+  "idade": 7,
+  "endereco": {
+    "logradouro": "Rua Afonsina",
+    "número": 911,
+    "bairro": "São Pedro",
+    "cidade": "São Paulo",
+    "Estado": "SP",
+    "CEP": "87999-124"
+  },
+  "responsaveis": [
+    {
+      "nomeCompleto": "Carla Ferreira",
+      "email": "carlaferreira@example.com",
+      "telefone": "11 98765-4321",
+      "cpf": "183.875.907-70"
+    },
+    {
+      "nomeCompleto": "Bruno Domini",
+      "email": "brunodominia@example.com",
+      "telefone": "11 98765-3842",
+      "cpf": "987.763.987-90"
+    }
+  ],
+  "presencas": [
+    {
+      "materia": "Português",
+      "data": "2024-04-10",
+      "presenca": true,
+      "periodo": "1° aula"
+    },
+    {
+      "materia": "Português",
+      "data": "2024-04-10",
+      "presenca": true,
+      "periodo": "2° aula"
+    },
+    {
+      "materia": "Português",
+      "data": "2024-04-11",
+      "presenca": false,
+      "periodo": "1° aula"
+    }
+  ],
+  "turma": {
+    "turmaId": "",
+    "nome": "3°A"
+  }
+},
+{
+  "_id": {
+    "$oid": "662ae2e3a21fcd3b222cb943"
+  },
+  "nomeCompleto": "Lucas Oliveira",
+  "idade": 8,
+  "endereco": {
+    "logradouro": "Rua Doutor De liz",
+    "número": 90,
+    "bairro": "São Pedro",
+    "cidade": "São Paulo",
+    "Estado": "SP",
+    "CEP": "8710-124"
+  },
+  "responsaveis": [
+    {
+      "nomeCompleto": "Rafael Oliveira",
+      "email": "rafaeloliveira@example.com",
+      "telefone": "11 98765-1234",
+      "cpf": "54321-987"
+    },
+    {
+      "nomeCompleto": "Anderson Bagio",
+      "email": "andersonbagio@example.com",
+      "telefone": "11 98302-1234",
+      "cpf": "198.908.876-90"
+    }
+  ],
+  "presencas": [
+    {
+      "materia": "Ciências",
+      "data": "2024-04-10",
+      "presenca": true,
+      "periodo": "1° aula",
+      "alunoId": ""
+    },
+    {
+      "materia": "Ciências",
+      "data": "2024-04-10",
+      "presenca": true,
+      "periodo": "2° aula",
+      "alunoId": ""
+    },
+    {
+      "materia": "Ciências",
+      "data": "2024-04-11",
+      "presenca": false,
+      "periodo": "1° aula",
+      "alunoId": ""
+    }
+  ],
+  "turma": {
+    "turmaId": "",
+    "nome": "4°A"
+  }
+},
+{
+  "_id": {
+    "$oid": "662ae2eda21fcd3b222cb944"
+  },
+  "nomeCompleto": "Ana Cardoso",
+  "idade": 10,
+  "endereco": {
+    "logradouro": "Rua São José dos Campos",
+    "número": 90,
+    "bairro": "São Pedro",
+    "cidade": "São Paulo",
+    "Estado": "SP",
+    "CEP": "87111-124"
+  },
+  "responsaveis": [
+    {
+      "nomeCompleto": "Carlos Cardoso",
+      "email": "carloscardoso@example.com",
+      "telefone": "11 98765-5678",
+      "cpf": "198.980.065-30"
+    },
+    {
+      "nomeCompleto": "Sarah Moreira",
+      "email": "sarahmoreira@gmail.com",
+      "telefone": "11 98765-5678",
+      "cpf": "983.879.298-90"
+    }
+  ],
+  "presencas": [
+    {
+      "materia": "Matemática",
+      "data": "2024-04-10",
+      "presenca": true,
+      "periodo": "1° aula"
+    },
+    {
+      "materia": "Matemática",
+      "data": "2024-04-10",
+      "presenca": true,
+      "periodo": "2° aula"
+    },
+    {
+      "materia": "Matemática",
+      "data": "2024-04-11",
+      "presenca": false,
+      "periodo": "1° aula"
+    }
+  ],
+  "turma": {
+    "turmaId": "",
+    "nome": "5°B"
+  }
+},
+{
+  "_id": {
+    "$oid": "662ae2faa21fcd3b222cb945"
+  },
+  "nomeCompleto": "Mariana Lima",
+  "idade": 10,
+  "endereco": {
+    "logradouro": "Rua Antonio dos Santos",
+    "número": 90,
+    "bairro": "São Pedro",
+    "cidade": "São Paulo",
+    "Estado": "SP",
+    "CEP": "8710-104"
+  },
+  "responsaveis": [
+    {
+      "nomeCompleto": "Fernando Lima",
+      "email": "fernandolima@example.com",
+      "telefone": "11 98765-8765",
+      "cpf": "67890-123"
+    }
+  ],
+  "presencas": [
+    {
+      "materia": "Português",
+      "data": "2024-04-10",
+      "presenca": true,
+      "periodo": "1° aula",
+      "alunoId": ""
+    },
+    {
+      "materia": "Português",
+      "data": "2024-04-10",
+      "presenca": true,
+      "periodo": "2° aula",
+      "alunoId": ""
+    },
+    {
+      "materia": "Matematica",
+      "data": "2024-04-11",
+      "presenca": false,
+      "periodo": "1° aula",
+      "alunoId": ""
+    }
+  ],
+  "turma": {
+    "turmaId": "",
+    "nome": "5°B"
+  }
+},
+{
+  "_id": {
+    "$oid": "662b1221a21fcd3b222cb94d"
+  },
+  "nomeCompleto": "Larissa Oliveira",
+  "idade": 10,
+  "endereco": {
+    "logradouro": "Rua das Flores",
+    "cidade": "São Paulo",
+    "bairro": "Centro",
+    "CEP": "12345-678",
+    "estado": "SP"
+  },
+  "responsaveis": [
+    {
+      "nomeCompleto": "Mariana Oliveira",
+      "email": "mariana@example.com",
+      "telefone": "11 98765-4321",
+      "cpf": "987.654.321-01"
+    },
+    {
+      "nomeCompleto": "Carlos Oliveira",
+      "email": "carlos@example.com",
+      "telefone": "11 98765-1234",
+      "cpf": "987.654.321-02"
+    }
+  ],
+  "presencas": [
+    {
+      "materia": "pedagoria (geral)",
+      "data": "2024-05-01",
+      "periodo": "manhã",
+      "presenca": true,
+      "alunoId": "662b1221a21fcd3b222cb94d"
+    }
+  ],
+  "turma": {
+    "nome": "5°A"
+  },
+  "_class": "staff.Api.entity.Aluno"
+},
+{
+  "_id": {
+    "$oid": "662b1237a21fcd3b222cb94e"
+  },
+  "nomeCompleto": "Gabriel Fernandes",
+  "idade": 10,
+  "endereco": {
+    "logradouro": "Av. Brasil",
+    "cidade": "São Paulo",
+    "bairro": "Jardim das Flores",
+    "CEP": "54321-987",
+    "estado": "SP"
+  },
+  "responsaveis": [
+    {
+      "nomeCompleto": "Patrícia Fernandes",
+      "email": "patricia@example.com",
+      "telefone": "11 98765-8765",
+      "cpf": "654.321.987-01"
+    },
+    {
+      "nomeCompleto": "Rafael Fernandes",
+      "email": "rafael@example.com",
+      "telefone": "11 98765-5678",
+      "cpf": "654.321.987-02"
+    }
+  ],
+  "presencas": [
+    {
+      "materia": "pedagoria (geral)",
+      "data": "2024-05-01",
+      "periodo": "manhã",
+      "presenca": true,
+      "alunoId": "662b1237a21fcd3b222cb94e"
+    }
+  ],
+  "turma": {
+    "nome": "5°A"
+  },
+  "_class": "staff.Api.entity.Aluno"
+},
+{
+  "_id": {
+    "$oid": "662b125da21fcd3b222cb94f"
+  },
+  "nomeCompleto": "Mariana Silva",
+  "idade": 10,
+  "endereco": {
+    "logradouro": "Rua São Jorge",
+    "cidade": "São Paulo",
+    "bairro": "Vila Nova",
+    "CEP": "98765-432",
+    "estado": "SP"
+  },
+  "responsaveis": [
+    {
+      "nomeCompleto": "Ana Silva",
+      "email": "ana@example.com",
+      "telefone": "11 98765-4321",
+      "cpf": "123.456.789-01"
+    },
+    {
+      "nomeCompleto": "Pedro Silva",
+      "email": "pedro@example.com",
+      "telefone": "11 98765-1234",
+      "cpf": "123.456.789-02"
+    }
+  ],
+  "presencas": [
+    {
+      "materia": "pedagoria (geral)",
+      "data": "2024-05-01",
+      "periodo": "manhã",
+      "presenca": true,
+      "alunoId": "662b125da21fcd3b222cb94f"
+    }
+  ],
+  "turma": {
+    "nome": "5°A"
+  },
+  "_class": "staff.Api.entity.Aluno"
+},
+{
+  "_id": {
+    "$oid": "662b12bba21fcd3b222cb951"
+  },
+  "nomeCompleto": "João Santos",
+  "idade": 10,
+  "endereco": {
+    "logradouro": "Av. das Américas",
+    "cidade": "São Paulo",
+    "bairro": "Centro",
+    "CEP": "54321-123",
+    "estado": "SP"
+  },
+  "responsaveis": [
+    {
+      "nomeCompleto": "Maria Santos",
+      "email": "maria@example.com",
+      "telefone": "11 98765-8765",
+      "cpf": "987.654.321-01"
+    },
+    {
+      "nomeCompleto": "José Santos",
+      "email": "jose@example.com",
+      "telefone": "11 98765-5678",
+      "cpf": "987.654.321-02"
+    }
+  ],
+  "presencas": [
+    {
+      "materia": "pedagoria (geral)",
+      "data": "2024-05-01",
+      "periodo": "manhã",
+      "presenca": true,
+      "alunoId": "662b12bba21fcd3b222cb951"
+    }
+  ],
+  "turma": {
+    "nome": "5°A"
+  },
+  "_class": "staff.Api.entity.Aluno"
+},
+{
+  "_id": {
+    "$oid": "662b12c9a21fcd3b222cb952"
+  },
+  "nomeCompleto": "Juliana Lima",
+  "idade": 10,
+  "endereco": {
+    "logradouro": "Rua das Flores",
+    "cidade": "São Paulo",
+    "bairro": "Jardim das Rosas",
+    "CEP": "34567-890",
+    "estado": "SP"
+  },
+  "responsaveis": [
+    {
+      "nomeCompleto": "Marcos Lima",
+      "email": "marcos@example.com",
+      "telefone": "11 98765-4321",
+      "cpf": "111.222.333-01"
+    },
+    {
+      "nomeCompleto": "Fernanda Lima",
+      "email": "fernanda@example.com",
+      "telefone": "11 98765-1234",
+      "cpf": "111.222.333-02"
+    }
+  ],
+  "presencas": [
+    {
+      "materia": "pedagoria (geral)",
+      "data": "2024-05-01",
+      "periodo": "manhã",
+      "presenca": true,
+      "alunoId": "662b12c9a21fcd3b222cb952"
+    }
+  ],
+  "turma": {
+    "nome": "5°A"
+  },
+  "_class": "staff.Api.entity.Aluno"
+},
+{
+  "_id": {
+    "$oid": "662b12d5a21fcd3b222cb953"
+  },
+  "nomeCompleto": "Lucas Oliveira",
+  "idade": 10,
+  "endereco": {
+    "logradouro": "Av. Paulista",
+    "cidade": "São Paulo",
+    "bairro": "Jardim Paulista",
+    "CEP": "12345-678",
+    "estado": "SP"
+  },
+  "responsaveis": [
+    {
+      "nomeCompleto": "Ana Oliveira",
+      "email": "ana@example.com",
+      "telefone": "11 98765-4321",
+      "cpf": "222.333.444-01"
+    },
+    {
+      "nomeCompleto": "Paulo Oliveira",
+      "email": "paulo@example.com",
+      "telefone": "11 98765-1234",
+      "cpf": "222.333.444-02"
+    }
+  ],
+  "presencas": [
+    {
+      "materia": "pedagoria (geral)",
+      "data": "2024-05-01",
+      "periodo": "manhã",
+      "presenca": true,
+      "alunoId": "662b12d5a21fcd3b222cb953"
+    }
+  ],
+  "turma": {
+    "nome": "5°A"
+  },
+  "_class": "staff.Api.entity.Aluno"
+},
+{
+  "_id": {
+    "$oid": "662b1327a21fcd3b222cb954"
+  },
+  "nomeCompleto": "Gabriela Costa",
+  "idade": 10,
+  "endereco": {
+    "logradouro": "Rua das Palmeiras",
+    "cidade": "São Paulo",
+    "bairro": "Jardim Botânico",
+    "CEP": "87654-321",
+    "estado": "SP"
+  },
+  "responsaveis": [
+    {
+      "nomeCompleto": "Pedro Costa",
+      "email": "pedro@example.com",
+      "telefone": "11 98765-4321",
+      "cpf": "333.444.555-01"
+    },
+    {
+      "nomeCompleto": "Maria Costa",
+      "email": "maria@example.com",
+      "telefone": "11 98765-1234",
+      "cpf": "333.444.555-02"
+    }
+  ],
+  "presencas": [
+    {
+      "materia": "pedagoria (geral)",
+      "data": "2024-05-01",
+      "periodo": "manhã",
+      "presenca": true,
+      "alunoId": "662b1327a21fcd3b222cb954"
+    }
+  ],
+  "turma": {
+    "nome": "5°A"
+  },
+  "_class": "staff.Api.entity.Aluno"
+},
+{
+  "_id": {
+    "$oid": "662b1335a21fcd3b222cb955"
+  },
+  "nomeCompleto": "Rafaela Oliveira",
+  "idade": 10,
+  "endereco": {
+    "logradouro": "Av. das Rosas",
+    "cidade": "São Paulo",
+    "bairro": "Vila Flor",
+    "CEP": "54321-876",
+    "estado": "SP"
+  },
+  "responsaveis": [
+    {
+      "nomeCompleto": "Pedro Oliveira",
+      "email": "pedro@example.com",
+      "telefone": "11 98765-4321",
+      "cpf": "444.555.666-01"
+    },
+    {
+      "nomeCompleto": "Ana Oliveira",
+      "email": "ana@example.com",
+      "telefone": "11 98765-1234",
+      "cpf": "444.555.666-02"
+    }
+  ],
+  "presencas": [
+    {
+      "materia": "pedagoria (geral)",
+      "data": "2024-05-01",
+      "periodo": "manhã",
+      "presenca": true,
+      "alunoId": "662b1335a21fcd3b222cb955"
+    }
+  ],
+  "turma": {
+    "nome": "5°A"
+  },
+  "_class": "staff.Api.entity.Aluno"
+},
+{
+  "_id": {
+    "$oid": "662b1341a21fcd3b222cb956"
+  },
+  "nomeCompleto": "Matheus Santos",
+  "idade": 10,
+  "endereco": {
+    "logradouro": "Rua dos Girassóis",
+    "cidade": "São Paulo",
+    "bairro": "Jardim Primavera",
+    "CEP": "98765-432",
+    "estado": "SP"
+  },
+  "responsaveis": [
+    {
+      "nomeCompleto": "José Santos",
+      "email": "jose@example.com",
+      "telefone": "11 98765-4321",
+      "cpf": "555.666.777-01"
+    },
+    {
+      "nomeCompleto": "Ana Santos",
+      "email": "ana@example.com",
+      "telefone": "11 98765-1234",
+      "cpf": "555.666.777-02"
+    }
+  ],
+  "presencas": [
+    {
+      "materia": "pedagoria (geral)",
+      "data": "2024-05-01",
+      "periodo": "manhã",
+      "presenca": true,
+      "alunoId": "662b1341a21fcd3b222cb956"
+    }
+  ],
+  "turma": {
+    "nome": "5°A"
+  },
+  "_class": "staff.Api.entity.Aluno"
+},
+{
+  "_id": {
+    "$oid": "662b134fa21fcd3b222cb957"
+  },
+  "nomeCompleto": "Larissa Lima",
+  "idade": 10,
+  "endereco": {
+    "logradouro": "Rua dos Cravos",
+    "cidade": "São Paulo",
+    "bairro": "Jardim das Flores",
+    "CEP": "54321-987",
+    "estado": "SP"
+  },
+  "responsaveis": [
+    {
+      "nomeCompleto": "Pedro Lima",
+      "email": "pedro@example.com",
+      "telefone": "11 98765-4321",
+      "cpf": "666.777.888-01"
+    },
+    {
+      "nomeCompleto": "Maria Lima",
+      "email": "maria@example.com",
+      "telefone": "11 98765-1234",
+      "cpf": "666.777.888-02"
+    }
+  ],
+  "presencas": [
+    {
+      "materia": "pedagoria (geral)",
+      "data": "2024-05-01",
+      "periodo": "manhã",
+      "presenca": true,
+      "alunoId": "662b134fa21fcd3b222cb957"
+    }
+  ],
+  "turma": {
+    "nome": "5°A"
+  },
+  "_class": "staff.Api.entity.Aluno"
+},
+{
+  "_id": {
+    "$oid": "662b135ca21fcd3b222cb958"
+  },
+  "nomeCompleto": "Pedro Almeida",
+  "idade": 10,
+  "endereco": {
+    "logradouro": "Rua das Acácias",
+    "cidade": "São Paulo",
+    "bairro": "Jardim dos Ipês",
+    "CEP": "12345-678",
+    "estado": "SP"
+  },
+  "responsaveis": [
+    {
+      "nomeCompleto": "José Almeida",
+      "email": "jose@example.com",
+      "telefone": "11 98765-4321",
+      "cpf": "777.888.999-01"
+    },
+    {
+      "nomeCompleto": "Ana Almeida",
+      "email": "ana@example.com",
+      "telefone": "11 98765-1234",
+      "cpf": "777.888.999-02"
+    }
+  ],
+  "presencas": [
+    {
+      "materia": "pedagoria (geral)",
+      "data": "2024-05-01",
+      "periodo": "manhã",
+      "presenca": true,
+      "alunoId": "662b135ca21fcd3b222cb958"
+    }
+  ],
+  "turma": {
+    "nome": "5°A"
+  },
+  "_class": "staff.Api.entity.Aluno"
+},
+{
+  "_id": {
+    "$oid": "662b13d1a21fcd3b222cb959"
+  },
+  "nomeCompleto": "Laura Silva",
+  "idade": 10,
+  "endereco": {
+    "logradouro": "Av. das Flores",
+    "número": 123,
+    "bairro": "Centro",
+    "cidade": "São Paulo",
+    "estado": "SP",
+    "CEP": "87654-321"
+  },
+  "responsaveis": [
+    {
+      "nomeCompleto": "Pedro Silva",
+      "email": "pedro@example.com",
+      "telefone": "11 98765-4321",
+      "cpf": "111.222.333-01"
+    },
+    {
+      "nomeCompleto": "Ana Silva",
+      "email": "ana@example.com",
+      "telefone": "11 98765-1234",
+      "cpf": "111.222.333-02"
+    }
+  ],
+  "presencas": [],
+  "turma": {
+    "turmaId": "",
+    "nome": "5°B"
+  }
+},
+{
+  "_id": {
+    "$oid": "662b13e1a21fcd3b222cb95a"
+  },
+  "nomeCompleto": "Lucas Santos",
+  "idade": 10,
+  "endereco": {
+    "logradouro": "Rua das Árvores",
+    "número": 456,
+    "bairro": "Vila Nova",
+    "cidade": "São Paulo",
+    "estado": "SP",
+    "CEP": "54321-876"
+  },
+  "responsaveis": [
+    {
+      "nomeCompleto": "José Santos",
+      "email": "jose@example.com",
+      "telefone": "11 98765-4321",
+      "cpf": "222.333.444-01"
+    },
+    {
+      "nomeCompleto": "Ana Santos",
+      "email": "ana@example.com",
+      "telefone": "11 98765-1234",
+      "cpf": "222.333.444-02"
+    }
+  ],
+  "presencas": [],
+  "turma": {
+    "turmaId": "",
+    "nome": "5°B"
+  }
+},
+{
+  "_id": {
+    "$oid": "662b13eea21fcd3b222cb95b"
+  },
+  "nomeCompleto": "Mateus Oliveira",
+  "idade": 10,
+  "endereco": {
+    "logradouro": "Av. das Palmeiras",
+    "número": 789,
+    "bairro": "Jardim das Flores",
+    "cidade": "São Paulo",
+    "estado": "SP",
+    "CEP": "98765-432"
+  },
+  "responsaveis": [
+    {
+      "nomeCompleto": "Pedro Oliveira",
+      "email": "pedro@example.com",
+      "telefone": "11 98765-4321",
+      "cpf": "333.444.555-01"
+    },
+    {
+      "nomeCompleto": "Maria Oliveira",
+      "email": "maria@example.com",
+      "telefone": "11 98765-1234",
+      "cpf": "333.444.555-02"
+    }
+  ],
+  "presencas": [],
+  "turma": {
+    "turmaId": "",
+    "nome": "5°B"
+  }
+},
+{
+  "_id": {
+    "$oid": "662b13f9a21fcd3b222cb95c"
+  },
+  "nomeCompleto": "Julia Lima",
+  "idade": 10,
+  "endereco": {
+    "logradouro": "Rua das Margaridas",
+    "número": 321,
+    "bairro": "Jardim Florido",
+    "cidade": "São Paulo",
+    "estado": "SP",
+    "CEP": "54321-987"
+  },
+  "responsaveis": [
+    {
+      "nomeCompleto": "Pedro Lima",
+      "email": "pedro@example.com",
+      "telefone": "11 98765-4321",
+      "cpf": "444.555.666-01"
+    },
+    {
+      "nomeCompleto": "Maria Lima",
+      "email": "maria@example.com",
+      "telefone": "11 98765-1234",
+      "cpf": "444.555.666-02"
+    }
+  ],
+  "presencas": [],
+  "turma": {
+    "turmaId": "",
+    "nome": "5°B"
+  }
+},
+{
+  "_id": {
+    "$oid": "662b142fa21fcd3b222cb95d"
+  },
+  "nomeCompleto": "Ana Clara Silva",
+  "idade": 10,
+  "endereco": {
+    "logradouro": "Rua das Flores",
+    "número": 123,
+    "bairro": "Jardim Botânico",
+    "cidade": "São Paulo",
+    "estado": "SP",
+    "CEP": "12345-678"
+  },
+  "responsaveis": [
+    {
+      "nomeCompleto": "João Silva",
+      "email": "joao@example.com",
+      "telefone": "11 98765-4321",
+      "cpf": "123.456.789-01"
+    },
+    {
+      "nomeCompleto": "Maria Silva",
+      "email": "maria@example.com",
+      "telefone": "11 98765-1234",
+      "cpf": "987.654.321-02"
+    }
+  ],
+  "presencas": [],
+  "turma": {
+    "turmaId": "",
+    "nome": "5°B"
+  }
+},
+{
+  "_id": {
+    "$oid": "662b1439a21fcd3b222cb95e"
+  },
+  "nomeCompleto": "Pedro Henrique Oliveira",
+  "idade": 10,
+  "endereco": {
+    "logradouro": "Rua dos Girassóis",
+    "número": 456,
+    "bairro": "Centro",
+    "cidade": "São Paulo",
+    "estado": "SP",
+    "CEP": "54321-123"
+  },
+  "responsaveis": [
+    {
+      "nomeCompleto": "Ricardo Oliveira",
+      "email": "ricardo@example.com",
+      "telefone": "11 98765-4321",
+      "cpf": "111.222.333-01"
+    },
+    {
+      "nomeCompleto": "Laura Oliveira",
+      "email": "laura@example.com",
+      "telefone": "11 98765-1234",
+      "cpf": "444.555.666-02"
+    }
+  ],
+  "presencas": [],
+  "turma": {
+    "turmaId": "",
+    "nome": "5°B"
+  }
+},
+{
+  "_id": {
+    "$oid": "662b1446a21fcd3b222cb95f"
+  },
+  "nomeCompleto": "Gabriel Lima",
+  "idade": 10,
+  "endereco": {
+    "logradouro": "Avenida Paulista",
+    "número": 789,
+    "bairro": "Jardim América",
+    "cidade": "São Paulo",
+    "estado": "SP",
+    "CEP": "87654-321"
+  },
+  "responsaveis": [
+    {
+      "nomeCompleto": "Carlos Lima",
+      "email": "carlos@example.com",
+      "telefone": "11 98765-4321",
+      "cpf": "777.888.999-01"
+    },
+    {
+      "nomeCompleto": "Patrícia Lima",
+      "email": "patricia@example.com",
+      "telefone": "11 98765-1234",
+      "cpf": "999.888.777-02"
+    }
+  ],
+  "presencas": [],
+  "turma": {
+    "turmaId": "",
+    "nome": "5°B"
+  }
+},
+{
+  "_id": {
+    "$oid": "662b1453a21fcd3b222cb960"
+  },
+  "nomeCompleto": "Lívia Santos",
+  "idade": 10,
+  "endereco": {
+    "logradouro": "Rua das Palmeiras",
+    "número": 123,
+    "bairro": "Jardim dos Ipês",
+    "cidade": "São Paulo",
+    "estado": "SP",
+    "CEP": "23130-124"
+  },
+  "responsaveis": [
+    {
+      "nomeCompleto": "Fernando Santos",
+      "email": "fernando@example.com",
+      "telefone": "11 98765-4321",
+      "cpf": "222.333.444-01"
+    },
+    {
+      "nomeCompleto": "Sandra Santos",
+      "email": "sandra@example.com",
+      "telefone": "11 98765-1234",
+      "cpf": "444.333.222-02"
+    }
+  ],
+  "presencas": [],
+  "turma": {
+    "turmaId": "",
+    "nome": "5°B"
+  }
+},
+{
+  "_id": {
+    "$oid": "662b1679a21fcd3b222cb961"
+  },
+  "nomeCompleto": "Carlos Eduardo Almeida",
+  "idade": 10,
+  "endereco": {
+    "logradouro": "Rua dos Ipês",
+    "número": 456,
+    "bairro": "São Pedro",
+    "cidade": "São Paulo",
+    "estado": "SP",
+    "CEP": "87654-321"
+  },
+  "responsaveis": [
+    {
+      "nomeCompleto": "Ricardo Almeida",
+      "email": "ricardo@example.com",
+      "telefone": "11 98765-4321",
+      "cpf": "555.666.777-01"
+    },
+    {
+      "nomeCompleto": "Luana Almeida",
+      "email": "luana@example.com",
+      "telefone": "11 98765-1234",
+      "cpf": "777.666.555-02"
+    }
+  ],
+  "presencas": [],
+  "turma": {
+    "turmaId": "",
+    "nome": "5°B"
+  }
+},
+{
+  "_id": {
+    "$oid": "662b1686a21fcd3b222cb962"
+  },
+  "nomeCompleto": "Lívia Santos",
+  "idade": 10,
+  "endereco": {
+    "logradouro": "Rua das Palmeiras",
+    "número": 123,
+    "bairro": "Jardim dos Ipês",
+    "cidade": "São Paulo",
+    "estado": "SP",
+    "CEP": "23130-124"
+  },
+  "responsaveis": [
+    {
+      "nomeCompleto": "Fernando Santos",
+      "email": "fernando@example.com",
+      "telefone": "11 98765-4321",
+      "cpf": "222.333.444-01"
+    },
+    {
+      "nomeCompleto": "Sandra Santos",
+      "email": "sandra@example.com",
+      "telefone": "11 98765-1234",
+      "cpf": "444.333.222-02"
+    }
+  ],
+  "presencas": [],
+  "turma": {
+    "turmaId": "",
+    "nome": "5°B"
+  }
+},
+{
+  "_id": {
+    "$oid": "662b1692a21fcd3b222cb963"
+  },
+  "nomeCompleto": "Gabriel Lima",
+  "idade": 10,
+  "endereco": {
+    "logradouro": "Avenida Paulista",
+    "número": 789,
+    "bairro": "Jardim América",
+    "cidade": "São Paulo",
+    "estado": "SP",
+    "CEP": "87654-321"
+  },
+  "responsaveis": [
+    {
+      "nomeCompleto": "Carlos Lima",
+      "email": "carlos@example.com",
+      "telefone": "11 98765-4321",
+      "cpf": "777.888.999-01"
+    },
+    {
+      "nomeCompleto": "Patrícia Lima",
+      "email": "patricia@example.com",
+      "telefone": "11 98765-1234",
+      "cpf": "999.888.777-02"
+    }
+  ],
+  "presencas": [],
+  "turma": {
+    "turmaId": "",
+    "nome": "5°B"
+  }
+},
+{
+  "_id": {
+    "$oid": "662b16a1a21fcd3b222cb964"
+  },
+  "nomeCompleto": "Pedro Henrique Oliveira",
+  "idade": 10,
+  "endereco": {
+    "logradouro": "Rua dos Girassóis",
+    "número": 456,
+    "bairro": "Centro",
+    "cidade": "São Paulo",
+    "estado": "SP",
+    "CEP": "54321-123"
+  },
+  "responsaveis": [
+    {
+      "nomeCompleto": "Ricardo Oliveira",
+      "email": "ricardo@example.com",
+      "telefone": "11 98765-4321",
+      "cpf": "111.222.333-01"
+    },
+    {
+      "nomeCompleto": "Laura Oliveira",
+      "email": "laura@example.com",
+      "telefone": "11 98765-1234",
+      "cpf": "444.555.666-02"
+    }
+  ],
+  "presencas": [],
+  "turma": {
+    "turmaId": "",
+    "nome": "5°B"
+  }
+},
+{
+  "_id": {
+    "$oid": "662b16ada21fcd3b222cb965"
+  },
+  "nomeCompleto": "Ana Clara Silva",
+  "idade": 10,
+  "endereco": {
+    "logradouro": "Rua das Flores",
+    "número": 123,
+    "bairro": "Jardim Botânico",
+    "cidade": "São Paulo",
+    "estado": "SP",
+    "CEP": "12345-678"
+  },
+  "responsaveis": [
+    {
+      "nomeCompleto": "João Silva",
+      "email": "joao@example.com",
+      "telefone": "11 98765-4321",
+      "cpf": "123.456.789-01"
+    },
+    {
+      "nomeCompleto": "Maria Silva",
+      "email": "maria@example.com",
+      "telefone": "11 98765-1234",
+      "cpf": "987.654.321-02"
+    }
+  ],
+  "presencas": [],
+  "turma": {
+    "turmaId": "",
+    "nome": "5°B"
+  }
+},
+{
+  "_id": {
+    "$oid": "662ba1dc6760d99873e16103"
+  },
+  "nomeCompleto": "Larissa Lima",
+  "idade": 10,
+  "endereco": {
+    "logradouro": "Rua dos Cravos",
+    "cidade": "São Paulo",
+    "bairro": "Jardim das Flores",
+    "CEP": "54321-987",
+    "estado": "SP"
+  },
+  "responsaveis": [
+    {
+      "nomeCompleto": "Pedro Lima",
+      "email": "pedro@example.com",
+      "telefone": "11 98765-4321",
+      "cpf": "666.777.888-01"
+    },
+    {
+      "nomeCompleto": "Maria Lima",
+      "email": "maria@example.com",
+      "telefone": "11 98765-1234",
+      "cpf": "666.777.888-02"
+    }
+  ],
+  "presencas": [
+    {
+      "materia": "pedagoria (geral)",
+      "data": "2024-05-01",
+      "periodo": "manhã",
+      "presenca": true,
+      "alunoId": "662ba1dc6760d99873e16103"
+    }
+  ],
+  "turma": {
+    "nome": "5°A"
+  },
+  "_class": "staff.Api.entity.Aluno"
+},
+{
+  "_id": {
+    "$oid": "662ba1ef6760d99873e16104"
+  },
+  "nomeCompleto": "Beatriz Oliveira",
+  "idade": 10,
+  "endereco": {
+    "logradouro": "Rua das Margaridas",
+    "cidade": "São Paulo",
+    "bairro": "Centro",
+    "CEP": "12345-678",
+    "estado": "SP"
+  },
+  "responsaveis": [
+    {
+      "nomeCompleto": "João Oliveira",
+      "email": "joao@example.com",
+      "telefone": "11 98765-4321",
+      "cpf": "111.222.333-01"
+    },
+    {
+      "nomeCompleto": "Ana Oliveira",
+      "email": "ana@example.com",
+      "telefone": "11 98765-1234",
+      "cpf": "111.222.333-02"
+    }
+  ],
+  "presencas": [
+    {
+      "materia": "pedagoria (geral)",
+      "data": "2024-05-01",
+      "periodo": "manhã",
+      "presenca": true,
+      "alunoId": "662ba1ef6760d99873e16104"
+    }
+  ],
+  "turma": {
+    "nome": "5°A"
+  },
+  "_class": "staff.Api.entity.Aluno"
+},
+{
+  "_id": {
+    "$oid": "662ba1fb6760d99873e16105"
+  },
+  "nomeCompleto": "Gustavo Silva",
+  "idade": 9,
+  "endereco": {
+    "logradouro": "Avenida das Palmeiras",
+    "cidade": "São Paulo",
+    "bairro": "Vila Nova",
+    "CEP": "23456-789",
+    "estado": "SP"
+  },
+  "responsaveis": [
+    {
+      "nomeCompleto": "Marcos Silva",
+      "email": "marcos@example.com",
+      "telefone": "11 98765-4321",
+      "cpf": "444.555.666-01"
+    },
+    {
+      "nomeCompleto": "Carla Silva",
+      "email": "carla@example.com",
+      "telefone": "11 98765-1234",
+      "cpf": "444.555.666-02"
+    }
+  ],
+  "presencas": [
+    {
+      "materia": "pedagoria (geral)",
+      "data": "2024-05-01",
+      "periodo": "manhã",
+      "presenca": true,
+      "alunoId": "662ba1fb6760d99873e16105"
+    }
+  ],
+  "turma": {
+    "nome": "5°A"
+  },
+  "_class": "staff.Api.entity.Aluno"
+},
+{
+  "_id": {
+    "$oid": "662ba20a6760d99873e16106"
+  },
+  "nomeCompleto": "Sofia Santos",
+  "idade": 10,
+  "endereco": {
+    "logradouro": "Rua das Orquídeas",
+    "cidade": "São Paulo",
+    "bairro": "Jardim América",
+    "CEP": "34567-890",
+    "estado": "SP"
+  },
+  "responsaveis": [
+    {
+      "nomeCompleto": "Bruno Santos",
+      "email": "bruno@example.com",
+      "telefone": "11 98765-4321",
+      "cpf": "777.888.999-01"
+    },
+    {
+      "nomeCompleto": "Renata Santos",
+      "email": "renata@example.com",
+      "telefone": "11 98765-1234",
+      "cpf": "777.888.999-02"
+    }
+  ],
+  "presencas": [
+    {
+      "materia": "pedagoria (geral)",
+      "data": "2024-05-01",
+      "periodo": "manhã",
+      "presenca": true,
+      "alunoId": "662ba20a6760d99873e16106"
+    }
+  ],
+  "turma": {
+    "nome": "5°A"
+  },
+  "_class": "staff.Api.entity.Aluno"
+},
+{
+  "_id": {
+    "$oid": "662ba2186760d99873e16107"
+  },
+  "nomeCompleto": "Davi Pereira",
+  "idade": 8,
+  "endereco": {
+    "logradouro": "Alameda das Rosas",
+    "cidade": "São Paulo",
+    "bairro": "Vila Madalena",
+    "CEP": "45678-901",
+    "estado": "SP"
+  },
+  "responsaveis": [
+    {
+      "nomeCompleto": "Ricardo Pereira",
+      "email": "ricardo@example.com",
+      "telefone": "11 98765-4321",
+      "cpf": "888.999.000-01"
+    },
+    {
+      "nomeCompleto": "Patricia Pereira",
+      "email": "patricia@example.com",
+      "telefone": "11 98765-1234",
+      "cpf": "888.999.000-02"
+    }
+  ],
+  "presencas": [
+    {
+      "materia": "pedagoria (geral)",
+      "data": "2024-05-01",
+      "periodo": "manhã",
+      "presenca": true,
+      "alunoId": "662ba2186760d99873e16107"
+    }
+  ],
+  "turma": {
+    "nome": "5°A"
+  },
+  "_class": "staff.Api.entity.Aluno"
+},
+{
+  "_id": {
+    "$oid": "662ba24b6760d99873e16108"
+  },
+  "nomeCompleto": "Helena Almeida",
+  "idade": 7,
+  "endereco": {
+    "logradouro": "Travessa das Violetas",
+    "cidade": "São Paulo",
+    "bairro": "Vila Mariana",
+    "CEP": "56789-012",
+    "estado": "SP"
+  },
+  "responsaveis": [
+    {
+      "nomeCompleto": "Thiago Almeida",
+      "email": "thiago@example.com",
+      "telefone": "11 98765-4321",
+      "cpf": "999.000.111-01"
+    },
+    {
+      "nomeCompleto": "Camila Almeida",
+      "email": "camila@example.com",
+      "telefone": "11 98765-1234",
+      "cpf": "999.000.111-02"
+    }
+  ],
+  "presencas": [
+    {
+      "materia": "pedagoria (geral)",
+      "data": "2024-05-01",
+      "periodo": "manhã",
+      "presenca": true,
+      "alunoId": "662ba24b6760d99873e16108"
+    }
+  ],
+  "turma": {
+    "nome": "5°A"
+  },
+  "_class": "staff.Api.entity.Aluno"
+},
+{
+  "_id": {
+    "$oid": "662ba3c56760d99873e16109"
+  },
+  "nomeCompleto": "Lucas Oliveira",
+  "idade": 10,
+  "endereco": {
+    "logradouro": "Rua das Flores",
+    "número": 123,
+    "bairro": "Jardim Primavera",
+    "cidade": "São Paulo",
+    "estado": "SP",
+    "CEP": "12345-678"
+  },
+  "responsaveis": [
+    {
+      "nomeCompleto": "Carlos Oliveira",
+      "email": "carlos@example.com",
+      "telefone": "11 98765-4321",
+      "cpf": "111.222.333-01"
+    },
+    {
+      "nomeCompleto": "Ana Oliveira",
+      "email": "ana@example.com",
+      "telefone": "11 98765-1234",
+      "cpf": "111.222.333-02"
+    }
+  ],
+  "presencas": [],
+  "turma": {
+    "turmaId": "",
+    "nome": "5°B"
+  }
+},
+{
+  "_id": {
+    "$oid": "662ba3e96760d99873e1610a"
+  },
+  "nomeCompleto": "Julia Santos",
+  "idade": 9,
+  "endereco": {
+    "logradouro": "Avenida das Árvores",
+    "número": 456,
+    "bairro": "Vila Verde",
+    "cidade": "São Paulo",
+    "estado": "SP",
+    "CEP": "23456-789"
+  },
+  "responsaveis": [
+    {
+      "nomeCompleto": "Marcos Santos",
+      "email": "marcos@example.com",
+      "telefone": "11 98765-4321",
+      "cpf": "444.555.666-01"
+    },
+    {
+      "nomeCompleto": "Carla Santos",
+      "email": "carla@example.com",
+      "telefone": "11 98765-1234",
+      "cpf": "444.555.666-02"
+    }
+  ],
+  "presencas": [],
+  "turma": {
+    "turmaId": "",
+    "nome": "5°B"
+  }
+},
+{
+  "_id": {
+    "$oid": "662ba3f46760d99873e1610b"
+  },
+  "nomeCompleto": "Gabriel Pereira",
+  "idade": 10,
+  "endereco": {
+    "logradouro": "Rua das Palmeiras",
+    "número": 789,
+    "bairro": "Vila Nova",
+    "cidade": "São Paulo",
+    "estado": "SP",
+    "CEP": "34567-890"
+  },
+  "responsaveis": [
+    {
+      "nomeCompleto": "Ricardo Pereira",
+      "email": "ricardo@example.com",
+      "telefone": "11 98765-4321",
+      "cpf": "777.888.999-01"
+    },
+    {
+      "nomeCompleto": "Patricia Pereira",
+      "email": "patricia@example.com",
+      "telefone": "11 98765-1234",
+      "cpf": "777.888.999-02"
+    }
+  ],
+  "presencas": [],
+  "turma": {
+    "turmaId": "",
+    "nome": "5°B"
+  }
+},
+{
+  "_id": {
+    "$oid": "662ba4056760d99873e1610c"
+  },
+  "nomeCompleto": "Isabela Silva",
+  "idade": 8,
+  "endereco": {
+    "logradouro": "Alameda dos Girassóis",
+    "número": 1011,
+    "bairro": "Jardim das Flores",
+    "cidade": "São Paulo",
+    "estado": "SP",
+    "CEP": "45678-901"
+  },
+  "responsaveis": [
+    {
+      "nomeCompleto": "Marcos Silva",
+      "email": "marcos@example.com",
+      "telefone": "11 98765-4321",
+      "cpf": "888.999.000-01"
+    },
+    {
+      "nomeCompleto": "Carla Silva",
+      "email": "carla@example.com",
+      "telefone": "11 98765-1234",
+      "cpf": "888.999.000-02"
+    }
+  ],
+  "presencas": [],
+  "turma": {
+    "turmaId": "",
+    "nome": "5°B"
+  }
+}]

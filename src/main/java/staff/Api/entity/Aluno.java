@@ -24,4 +24,7 @@ public class Aluno {
     private List<Presenca> presencas;
     private TurmaDto turma;
 
+    public void adicionarPresenca(Presenca presenca) {
+        this.presencas.add(presenca);
+    }
 }

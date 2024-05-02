@@ -1,0 +1,1000 @@
+[{
+  "_id": {
+    "$oid": "662ad802a21fcd3b222cb937"
+  },
+  "nomeCompleto": "Amanda Barbosa",
+  "idade": 29,
+  "telefone": "11 98763-9876",
+  "email": "amanda_barbosagmail.com",
+  "cpf": "123.987.765-90",
+  "login": "amdBarbosa",
+  "senha": "amdBarbosa123",
+  "endereco": {
+    "logradouro": "Rua joão firmino",
+    "bairro": "São Pedro",
+    "cidade": "São Paulo",
+    "CEP": "8710-124",
+    "estado": "SP",
+    "numero": 90
+  },
+  "turmas": [
+    {
+      "turmaId": "662abc8da21fcd3b222cb92a",
+      "turmaNome": "5 A",
+      "periodo": "Manhã"
+    },
+    {
+      "turmaId": "",
+      "turmaNome": "",
+      "periodo": "tarde"
+    }
+  ],
+  "professorResponsavel": true,
+  "horarios": [
+    {
+      "dia": "segunda-feira",
+      "aulasManha": [
+        {
+          "horario": "1° aula",
+          "materia": "horario vago",
+          "turmaNome": "5A",
+          "turmaId": "662abc8da21fcd3b222cb92a"
+        },
+        {
+          "horario": "2° aula",
+          "materia": "matematica",
+          "turmaNome": "5A",
+          "turmaId": "662abc8da21fcd3b222cb92a"
+        }
+      ],
+      "aulasTarde": [
+        {
+          "horario": "1° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        },
+        {
+          "horario": "2° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        }
+      ]
+    },
+    {
+      "dia": "terça-feira",
+      "aulasManha": [
+        {
+          "horario": "1° aula",
+          "materia": "Horário vago",
+          "turmaNome": "5A",
+          "turmaId": "662abc8da21fcd3b222cb92a"
+        },
+        {
+          "horario": "2° aula",
+          "materia": "Português",
+          "turmaNome": "5A",
+          "turmaId": "662abc8da21fcd3b222cb92a"
+        }
+      ],
+      "aulasTarde": [
+        {
+          "horario": "1° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        },
+        {
+          "horario": "2° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        }
+      ]
+    },
+    {
+      "dia": "quarta-feira",
+      "aulasManha": [
+        {
+          "horario": "1° aula",
+          "materia": "Horário vago",
+          "turmaNome": "5A",
+          "turmaId": "662abc8da21fcd3b222cb92a"
+        },
+        {
+          "horario": "2° aula",
+          "materia": "Português",
+          "turmaNome": "5A",
+          "turmaId": "662abc8da21fcd3b222cb92a"
+        }
+      ],
+      "aulasTarde": [
+        {
+          "horario": "1° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        },
+        {
+          "horario": "2° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        }
+      ]
+    },
+    {
+      "dia": "quinta-feira",
+      "aulasManha": [
+        {
+          "horario": "1° aula",
+          "materia": "Matematica",
+          "turmaNome": "5A",
+          "turmaId": "662abc8da21fcd3b222cb92a"
+        },
+        {
+          "horario": "2° aula",
+          "materia": "Matematica",
+          "turmaNome": "5A",
+          "turmaId": "662abc8da21fcd3b222cb92a"
+        }
+      ],
+      "aulasTarde": [
+        {
+          "horario": "1° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        },
+        {
+          "horario": "2° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        }
+      ]
+    },
+    {
+      "dia": "sexta-feira",
+      "aulasManha": [
+        {
+          "horario": "1° aula",
+          "materia": "horario vago",
+          "turmaNome": "5A",
+          "turmaId": "662abc8da21fcd3b222cb92a"
+        },
+        {
+          "horario": "2° aula",
+          "materia": "Matematica",
+          "turmaNome": "5A",
+          "turmaId": "662abc8da21fcd3b222cb92a"
+        }
+      ],
+      "aulasTarde": [
+        {
+          "horario": "1° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        },
+        {
+          "horario": "2° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        }
+      ]
+    }
+  ],
+  "materia": "pedagoga"
+},
+{
+  "_id": {
+    "$oid": "662af2a0a21fcd3b222cb949"
+  },
+  "nomeCompleto": "Aline Hernesto",
+  "idade": 32,
+  "telefone": "11 98763-9876",
+  "email": "alinehernesto@gmail.com",
+  "cpf": "198.983.123-98",
+  "login": "alnhernesto",
+  "senha": "alnhernesto123",
+  "endereco": {
+    "logradouro": "Rua Marechal Deodoro",
+    "bairro": "Centro",
+    "cidade": "São Bernardo do Campo",
+    "CEP": "7982-124",
+    "estado": "SP",
+    "numero": 3290
+  },
+  "turmas": [
+    {
+      "turmaId": "",
+      "turmaNome": "",
+      "periodo": "Manhã"
+    },
+    {
+      "turmaId": "",
+      "turmaNome": "",
+      "periodo": "tarde"
+    }
+  ],
+  "professorResponsavel": true,
+  "horarios": [
+    {
+      "dia": "segunda-feira",
+      "aulasManha": [
+        {
+          "horario": "1° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        },
+        {
+          "horario": "2° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        }
+      ],
+      "aulasTarde": [
+        {
+          "horario": "1° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        },
+        {
+          "horario": "2° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        }
+      ]
+    },
+    {
+      "dia": "terça-feira",
+      "aulasManha": [
+        {
+          "horario": "1° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        },
+        {
+          "horario": "2° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        }
+      ],
+      "aulasTarde": [
+        {
+          "horario": "1° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        },
+        {
+          "horario": "2° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        }
+      ]
+    },
+    {
+      "dia": "quarta-feira",
+      "aulasManha": [
+        {
+          "horario": "1° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        },
+        {
+          "horario": "2° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        }
+      ],
+      "aulasTarde": [
+        {
+          "horario": "1° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        },
+        {
+          "horario": "2° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        }
+      ]
+    },
+    {
+      "dia": "quinta-feira",
+      "aulasManha": [
+        {
+          "horario": "1° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        },
+        {
+          "horario": "2° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        }
+      ],
+      "aulasTarde": [
+        {
+          "horario": "1° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        },
+        {
+          "horario": "2° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        }
+      ]
+    },
+    {
+      "dia": "sexta-feira",
+      "aulasManha": [
+        {
+          "horario": "1° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        },
+        {
+          "horario": "2° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        }
+      ],
+      "aulasTarde": [
+        {
+          "horario": "1° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        },
+        {
+          "horario": "2° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        }
+      ]
+    }
+  ],
+  "materia": "pedagoga"
+},
+{
+  "_id": {
+    "$oid": "662af3c5a21fcd3b222cb94a"
+  },
+  "nomeCompleto": "Luana de Souza",
+  "idade": 24,
+  "telefone": "11 98763-9876",
+  "email": "luanadesouza@gmail.com",
+  "cpf": "873.822.431-87",
+  "login": "lndsouza",
+  "senha": "lndsouza123",
+  "endereco": {
+    "logradouro": "Av Italo Seti",
+    "bairro": "Três Maria",
+    "cidade": "São Paulo",
+    "CEP": "8710-000",
+    "estado": "SP",
+    "numero": 920
+  },
+  "turmas": [
+    {
+      "turmaId": "",
+      "turmaNome": "",
+      "periodo": "Manhã"
+    },
+    {
+      "turmaId": "",
+      "turmaNome": "",
+      "periodo": "Manhã"
+    },
+    {
+      "turmaId": "",
+      "turmaNome": "",
+      "periodo": "tarde"
+    },
+    {
+      "turmaId": "",
+      "turmaNome": "",
+      "periodo": "tarde"
+    },
+    {
+      "turmaId": "",
+      "turmaNome": "",
+      "periodo": "tarde"
+    }
+  ],
+  "professorResponsavel": false,
+  "horarios": [
+    {
+      "dia": "segunda-feira",
+      "aulasManha": [
+        {
+          "horario": "1° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        },
+        {
+          "horario": "2° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        }
+      ],
+      "aulasTarde": [
+        {
+          "horario": "1° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        },
+        {
+          "horario": "2° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        }
+      ]
+    },
+    {
+      "dia": "terça-feira",
+      "aulasManha": [
+        {
+          "horario": "1° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        },
+        {
+          "horario": "2° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        }
+      ],
+      "aulasTarde": [
+        {
+          "horario": "1° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        },
+        {
+          "horario": "2° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        }
+      ]
+    },
+    {
+      "dia": "quarta-feira",
+      "aulasManha": [
+        {
+          "horario": "1° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        },
+        {
+          "horario": "2° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        }
+      ],
+      "aulasTarde": [
+        {
+          "horario": "1° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        },
+        {
+          "horario": "2° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        }
+      ]
+    },
+    {
+      "dia": "quinta-feira",
+      "aulasManha": [
+        {
+          "horario": "1° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        },
+        {
+          "horario": "2° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        }
+      ],
+      "aulasTarde": [
+        {
+          "horario": "1° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        },
+        {
+          "horario": "2° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        }
+      ]
+    },
+    {
+      "dia": "sexta-feira",
+      "aulasManha": [
+        {
+          "horario": "1° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        },
+        {
+          "horario": "2° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        }
+      ],
+      "aulasTarde": [
+        {
+          "horario": "1° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        },
+        {
+          "horario": "2° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        }
+      ]
+    }
+  ],
+  "materia": "Educação Fisica"
+},
+{
+  "_id": {
+    "$oid": "662afbe9a21fcd3b222cb94b"
+  },
+  "nomeCompleto": "Fernanda de Lima",
+  "idade": 26,
+  "telefone": "11 92345-8743",
+  "email": "fernandalima@gmail.com",
+  "cpf": "873.822.431-87",
+  "login": "fernandalima",
+  "senha": "fernandalima123",
+  "endereco": {
+    "logradouro": "Rua Major Carlos Deoprete",
+    "bairro": "Centro",
+    "cidade": "São Caetano do Sul",
+    "CEP": "8710-111",
+    "estado": "SP",
+    "numero": 650
+  },
+  "turmas": [
+    {
+      "turmaId": "",
+      "turmaNome": "",
+      "periodo": "Manhã"
+    },
+    {
+      "turmaId": "",
+      "turmaNome": "",
+      "periodo": "Manhã"
+    },
+    {
+      "turmaId": "",
+      "turmaNome": "",
+      "periodo": "tarde"
+    },
+    {
+      "turmaId": "",
+      "turmaNome": "",
+      "periodo": "tarde"
+    },
+    {
+      "turmaId": "",
+      "turmaNome": "",
+      "periodo": "tarde"
+    }
+  ],
+  "professorResponsavel": false,
+  "horarios": [
+    {
+      "dia": "segunda-feira",
+      "aulasManha": [
+        {
+          "horario": "1° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        },
+        {
+          "horario": "2° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        }
+      ],
+      "aulasTarde": [
+        {
+          "horario": "1° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        },
+        {
+          "horario": "2° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        }
+      ]
+    },
+    {
+      "dia": "terça-feira",
+      "aulasManha": [
+        {
+          "horario": "1° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        },
+        {
+          "horario": "2° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        }
+      ],
+      "aulasTarde": [
+        {
+          "horario": "1° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        },
+        {
+          "horario": "2° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        }
+      ]
+    },
+    {
+      "dia": "quarta-feira",
+      "aulasManha": [
+        {
+          "horario": "1° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        },
+        {
+          "horario": "2° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        }
+      ],
+      "aulasTarde": [
+        {
+          "horario": "1° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        },
+        {
+          "horario": "2° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        }
+      ]
+    },
+    {
+      "dia": "quinta-feira",
+      "aulasManha": [
+        {
+          "horario": "1° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        },
+        {
+          "horario": "2° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        }
+      ],
+      "aulasTarde": [
+        {
+          "horario": "1° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        },
+        {
+          "horario": "2° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        }
+      ]
+    },
+    {
+      "dia": "sexta-feira",
+      "aulasManha": [
+        {
+          "horario": "1° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        },
+        {
+          "horario": "2° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        }
+      ],
+      "aulasTarde": [
+        {
+          "horario": "1° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        },
+        {
+          "horario": "2° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        }
+      ]
+    }
+  ],
+  "materia": "Artes"
+},
+{
+  "_id": {
+    "$oid": "662c6a5bb200394be3e5b208"
+  },
+  "nomeCompleto": "Brenda Sthepani",
+  "idade": 28,
+  "telefone": "11 92345-8743",
+  "email": "brendasthepani@gmail.com",
+  "cpf": "734.987.654-87",
+  "login": "brendasthepani",
+  "senha": "brendasthepani123",
+  "endereco": {
+    "logradouro": "Rua Fernandes Costa",
+    "bairro": "Centro",
+    "cidade": "São Caetano do Sul",
+    "CEP": "98654-111",
+    "estado": "SP",
+    "numero": 413
+  },
+  "turmas": [
+    {
+      "turmaId": "",
+      "turmaNome": "",
+      "periodo": "Manhã"
+    },
+    {
+      "turmaId": "",
+      "turmaNome": "",
+      "periodo": "Manhã"
+    },
+    {
+      "turmaId": "",
+      "turmaNome": "",
+      "periodo": "tarde"
+    },
+    {
+      "turmaId": "",
+      "turmaNome": "",
+      "periodo": "tarde"
+    },
+    {
+      "turmaId": "",
+      "turmaNome": "",
+      "periodo": "tarde"
+    }
+  ],
+  "professorResponsavel": false,
+  "horarios": [
+    {
+      "dia": "segunda-feira",
+      "aulasManha": [
+        {
+          "horario": "1° aula",
+          "materia": "Ciência",
+          "turmaNome": "5°A",
+          "turmaId": "662c6a5bb200394be3e5b208"
+        },
+        {
+          "horario": "2° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        }
+      ],
+      "aulasTarde": [
+        {
+          "horario": "1° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        },
+        {
+          "horario": "2° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        }
+      ]
+    },
+    {
+      "dia": "terça-feira",
+      "aulasManha": [
+        {
+          "horario": "1° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        },
+        {
+          "horario": "2° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        }
+      ],
+      "aulasTarde": [
+        {
+          "horario": "1° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        },
+        {
+          "horario": "2° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        }
+      ]
+    },
+    {
+      "dia": "quarta-feira",
+      "aulasManha": [
+        {
+          "horario": "1° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        },
+        {
+          "horario": "2° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        }
+      ],
+      "aulasTarde": [
+        {
+          "horario": "1° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        },
+        {
+          "horario": "2° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        }
+      ]
+    },
+    {
+      "dia": "quinta-feira",
+      "aulasManha": [
+        {
+          "horario": "1° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        },
+        {
+          "horario": "2° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        }
+      ],
+      "aulasTarde": [
+        {
+          "horario": "1° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        },
+        {
+          "horario": "2° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        }
+      ]
+    },
+    {
+      "dia": "sexta-feira",
+      "aulasManha": [
+        {
+          "horario": "1° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        },
+        {
+          "horario": "2° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        }
+      ],
+      "aulasTarde": [
+        {
+          "horario": "1° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        },
+        {
+          "horario": "2° aula",
+          "materia": "",
+          "turmaNome": "",
+          "turmaId": ""
+        }
+      ]
+    }
+  ],
+  "materia": "Ciências"
+}]

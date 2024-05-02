@@ -1,0 +1,135 @@
+[{
+  "_id": {
+    "$oid": "662ad68fa21fcd3b222cb934"
+  },
+  "professor": {
+    "nome": "Aline Souza",
+    "materia": "Educação Fisisca",
+    "professorId": "6609dbba8680de674b45f57c"
+  },
+  "data": "2024-03-31",
+  "periodo": "1° periodo",
+  "registoPresencas": [
+    {
+      "presente": true,
+      "alunoId": ""
+    },
+    {
+      "presente": true,
+      "alunoId": ""
+    },
+    {
+      "presente": false,
+      "alunoId": ""
+    },
+    {
+      "presente": true,
+      "alunoId": ""
+    },
+    {
+      "presente": false,
+      "alunoId": ""
+    },
+    {
+      "presente": true,
+      "alunoId": ""
+    }
+  ],
+  "turmaId": "6609dcb98680de674b45f580"
+},
+{
+  "_id": {
+    "$oid": "663268f9b09a5b5ca3c52eba"
+  },
+  "professor": {
+    "nome": "José Alvez",
+    "professorId": "660978c319b350ebb4af7bab",
+    "materia": "pedagoria (geral)"
+  },
+  "data": "2024-05-01",
+  "periodo": "manhã",
+  "turmaId": "662abc8da21fcd3b222cb92a",
+  "_class": "staff.Api.entity.Chamada",
+  "registoPresencas": [
+    {
+      "presente": true,
+      "alunoId": "662ab30fa21fcd3b222cb926"
+    },
+    {
+      "presente": false,
+      "alunoId": "662ae19aa21fcd3b222cb93b"
+    },
+    {
+      "presente": true,
+      "alunoId": "662ae1cea21fcd3b222cb93c"
+    },
+    {
+      "presente": true,
+      "alunoId": "662b1221a21fcd3b222cb94d"
+    },
+    {
+      "presente": false,
+      "alunoId": "662b1237a21fcd3b222cb94e"
+    },
+    {
+      "presente": true,
+      "alunoId": "662b125da21fcd3b222cb94f"
+    },
+    {
+      "presente": true,
+      "alunoId": "662b12bba21fcd3b222cb951"
+    },
+    {
+      "presente": true,
+      "alunoId": "662b12c9a21fcd3b222cb952"
+    },
+    {
+      "presente": true,
+      "alunoId": "662b12d5a21fcd3b222cb953"
+    },
+    {
+      "presente": false,
+      "alunoId": "662b1327a21fcd3b222cb954"
+    },
+    {
+      "presente": true,
+      "alunoId": "662b1335a21fcd3b222cb955"
+    },
+    {
+      "presente": true,
+      "alunoId": "662b1341a21fcd3b222cb956"
+    },
+    {
+      "presente": true,
+      "alunoId": "662b134fa21fcd3b222cb957"
+    },
+    {
+      "presente": false,
+      "alunoId": "662b135ca21fcd3b222cb958"
+    },
+    {
+      "presente": true,
+      "alunoId": "662ba1dc6760d99873e16103"
+    },
+    {
+      "presente": true,
+      "alunoId": "662ba1ef6760d99873e16104"
+    },
+    {
+      "presente": false,
+      "alunoId": "662ba1fb6760d99873e16105"
+    },
+    {
+      "presente": true,
+      "alunoId": "662ba20a6760d99873e16106"
+    },
+    {
+      "presente": true,
+      "alunoId": "662ba2186760d99873e16107"
+    },
+    {
+      "presente": true,
+      "alunoId": "662ba24b6760d99873e16108"
+    }
+  ]
+}]

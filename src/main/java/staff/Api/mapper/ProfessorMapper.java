@@ -11,11 +11,12 @@ public class ProfessorMapper {
                 .nomeCompleto(request.getNomeCompleto())
                 .idade(request.getIdade())
                 .materia(request.getMateria())
-                .turmas(request.getTurmas())
                 .login(request.getLogin())
                 .senha(request.getSenha())
                 .telefone(request.getTelefone())
                 .email(request.getEmail())
                 .build();
     }
+
+
 }
