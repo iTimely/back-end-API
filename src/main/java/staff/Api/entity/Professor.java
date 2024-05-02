@@ -30,5 +30,5 @@ public class Professor {
     private Endereco endereco;
     private List<TurmaProfessorDto> turmas;
     private Boolean professorResponsavel;
-    private HorariosProfessor horarios;
+    private List<HorariosProfessor> horarios;
 }

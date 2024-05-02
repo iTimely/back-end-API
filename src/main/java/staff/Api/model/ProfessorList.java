@@ -1,15 +1,16 @@
 package staff.Api.model;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
-@AllArgsConstructor
 @Setter
-public class AulaProfessor {
-    private String horario;
+@Builder
+@AllArgsConstructor
+public class ProfessorList {
+    private String nome;
+    private String professorId;
     private String materia;
-    private String turmaNome;
-    private String turmaId;
 }

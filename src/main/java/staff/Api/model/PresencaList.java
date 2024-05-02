@@ -7,7 +7,11 @@ import lombok.Setter;
 @Getter
 @Setter
 @RequiredArgsConstructor
-public class PresencaLIst {
+public class PresencaList {
     private Boolean presente;
     private String alunoId;
+
+    public Boolean isPresente() {
+        return true;
+    }
 }

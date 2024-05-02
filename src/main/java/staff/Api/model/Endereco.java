@@ -6,7 +6,7 @@ import lombok.Data;
 public class Endereco {
     private String logradouro;
     private String cidade;
-    private String numero;
+    private Integer numero;
     private String bairro;
     private String CEP;
     private String estado;
