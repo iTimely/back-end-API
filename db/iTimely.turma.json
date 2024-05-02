@@ -1,0 +1,396 @@
+[{
+  "_id": {
+    "$oid": "662abc8da21fcd3b222cb92a"
+  },
+  "nome": "5°A",
+  "alunos": [
+    {
+      "nome": "Elias Souza Junior",
+      "alunoId": "662ab30fa21fcd3b222cb926"
+    },
+    {
+      "nome": "Pedro Oliveira",
+      "alunoId": "662ae19aa21fcd3b222cb93b"
+    },
+    {
+      "nome": "Juliana Santos",
+      "alunoId": "662ae1cea21fcd3b222cb93c"
+    },
+    {
+      "nome": "Larissa Oliveira",
+      "alunoId": "662b1221a21fcd3b222cb94d"
+    },
+    {
+      "nome": "Gabriel Fernandes",
+      "alunoId": "662b1237a21fcd3b222cb94e"
+    },
+    {
+      "nome": "Mariana Silva",
+      "alunoId": "662b125da21fcd3b222cb94f"
+    },
+    {
+      "nome": "João Santos",
+      "alunoId": "662b12bba21fcd3b222cb951"
+    },
+    {
+      "nome": "Juliana Lima",
+      "alunoId": "662b12c9a21fcd3b222cb952"
+    },
+    {
+      "nome": "Lucas Oliveira",
+      "alunoId": "662b12d5a21fcd3b222cb953"
+    },
+    {
+      "nome": "Gabriela Costa",
+      "alunoId": "662b1327a21fcd3b222cb954"
+    },
+    {
+      "nome": "Rafaela Oliveira",
+      "alunoId": "662b1335a21fcd3b222cb955"
+    },
+    {
+      "nome": "Matheus Santos",
+      "alunoId": "662b1341a21fcd3b222cb956"
+    },
+    {
+      "nome": "Larissa Lima",
+      "alunoId": "662b134fa21fcd3b222cb957"
+    },
+    {
+      "nome": "Pedro Almeida",
+      "alunoId": "662b135ca21fcd3b222cb958"
+    },
+    {
+      "nome": "Larissa Lima",
+      "alunoId": "662ba1dc6760d99873e16103"
+    },
+    {
+      "nome": "Beatriz Oliveira",
+      "alunoId": "662ba1ef6760d99873e16104"
+    },
+    {
+      "nome": "Gustavo Silva",
+      "alunoId": "662ba1fb6760d99873e16105"
+    },
+    {
+      "nome": "Sofia Santos",
+      "alunoId": "662ba20a6760d99873e16106"
+    },
+    {
+      "nome": "Davi Pereira",
+      "alunoId": "662ba2186760d99873e16107"
+    },
+    {
+      "nome": "Helena Almeida",
+      "alunoId": "662ba24b6760d99873e16108"
+    }
+  ],
+  "horarios": [
+    {
+      "dia": "segunda-feira",
+      "aulas": [
+        {
+          "horario": "1° aula",
+          "materia": "Ciências",
+          "nomeProfessor": "Brenda Sthepani",
+          "professorId": "662c6a5bb200394be3e5b208"
+        },
+        {
+          "horario": "2° aula",
+          "materia": "matematica",
+          "nomeProfessor": "Amanda Barbosa",
+          "professorId": "662ad802a21fcd3b222cb937"
+        }
+      ]
+    },
+    {
+      "dia": "terça-feira",
+      "aulas": [
+        {
+          "horario": "1° aula",
+          "materia": "Educação fisica",
+          "nomeProfessor": "Luana de Souza",
+          "professorId": "662af3c5a21fcd3b222cb94a"
+        },
+        {
+          "horario": "2° aula",
+          "materia": "Português",
+          "nomeProfessor": "Amanda Barbosa",
+          "professorId": "662ad802a21fcd3b222cb937"
+        }
+      ]
+    },
+    {
+      "dia": "quarta-feira",
+      "aulas": [
+        {
+          "horario": "1° aula",
+          "materia": "Artes",
+          "nomeProfessor": "Fernanda de Lima",
+          "professorId": "662afbe9a21fcd3b222cb94b"
+        },
+        {
+          "horario": "2° aula",
+          "materia": "Português",
+          "nomeProfessor": "Amanda Barbosa",
+          "professorId": "662ad802a21fcd3b222cb937"
+        }
+      ]
+    },
+    {
+      "dia": "quinta-feira",
+      "aulas": [
+        {
+          "horario": "1° aula",
+          "materia": "Matematica",
+          "nomeProfessor": "Amanda Barbosa",
+          "professorId": "662ad802a21fcd3b222cb937"
+        },
+        {
+          "horario": "2° aula",
+          "materia": "Matematica",
+          "nomeProfessor": "Amanda Barbosa",
+          "professorId": "662ad802a21fcd3b222cb937"
+        }
+      ]
+    },
+    {
+      "dia": "sexta-feira",
+      "aulas": [
+        {
+          "horario": "1° aula",
+          "materia": "Ciências",
+          "nomeProfessor": "Brenda Sthepani",
+          "professorId": "662c6a5bb200394be3e5b208"
+        },
+        {
+          "horario": "2° aula",
+          "materia": "Matematica",
+          "nomeProfessor": "Amanda Barbosa",
+          "professorId": "662ad802a21fcd3b222cb937"
+        }
+      ]
+    }
+  ],
+  "professorResponsavel": {
+    "nome": "José Alvez",
+    "professorId": "660978c319b350ebb4af7bab",
+    "materia": "pedagoria (geral)"
+  },
+  "professoresAuxiliares": [
+    {
+      "nome": "Luana Souza",
+      "professorId": "662af3c5a21fcd3b222cb94a",
+      "materia": "Educação Fisisca"
+    },
+    {
+      "nome": "Fernanda de Lima",
+      "professorId": "662afbe9a21fcd3b222cb94b",
+      "materia": "Artes"
+    },
+    {
+      "nome": "Brenda Sthepani",
+      "professorId": "662c6a5bb200394be3e5b208",
+      "materia": "Ciências"
+    }
+  ],
+  "periodo": "manhã"
+},
+{
+  "_id": {
+    "$oid": "662c7f1db200394be3e5b209"
+  },
+  "nome": "5°B",
+  "alunos": [
+    {
+      "nome": "Maria Silva",
+      "alunoId": "662ae181a21fcd3b222cb93a"
+    },
+    {
+      "nome": "Ana Cardoso",
+      "alunoId": "662ae2eda21fcd3b222cb944"
+    },
+    {
+      "nome": "Mariana Lima",
+      "alunoId": "662ae2faa21fcd3b222cb945"
+    },
+    {
+      "nome": "Laura Silva",
+      "alunoId": "662b13d1a21fcd3b222cb959"
+    },
+    {
+      "nome": "Lucas Santos",
+      "alunoId": "662b13f9a21fcd3b222cb95c"
+    },
+    {
+      "nome": "Julia Lima",
+      "alunoId": "662b125da21fcd3b222cb94f"
+    },
+    {
+      "nome": "Ana Clara Silva",
+      "alunoId": "662b142fa21fcd3b222cb95d"
+    },
+    {
+      "nome": "Pedro Henrique Oliveira",
+      "alunoId": "662b1439a21fcd3b222cb95e"
+    },
+    {
+      "nome": "Gabriel Lima",
+      "alunoId": "662b1446a21fcd3b222cb95f"
+    },
+    {
+      "nome": "Lívia Santos",
+      "alunoId": "662b1453a21fcd3b222cb960"
+    },
+    {
+      "nome": "Carlos Eduardo Almeida",
+      "alunoId": "662b1679a21fcd3b222cb961"
+    },
+    {
+      "nome": "Lívia Santos",
+      "alunoId": "662b1686a21fcd3b222cb962"
+    },
+    {
+      "nome": "Larissa Lima",
+      "alunoId": "662b134fa21fcd3b222cb957"
+    },
+    {
+      "nome": "Gabriel Lima",
+      "alunoId": "662b1692a21fcd3b222cb963"
+    },
+    {
+      "nome": "Pedro Henrique Oliveira",
+      "alunoId": "662b16a1a21fcd3b222cb964"
+    },
+    {
+      "nome": "Ana Clara Silva",
+      "alunoId": "662b16ada21fcd3b222cb965"
+    },
+    {
+      "nome": "Lucas Oliveira",
+      "alunoId": "662ba3c56760d99873e16109"
+    },
+    {
+      "nome": "Julia Santos",
+      "alunoId": "662ba3e96760d99873e1610a"
+    },
+    {
+      "nome": "Gabriel Pereira",
+      "alunoId": "662ba3f46760d99873e1610b"
+    },
+    {
+      "nome": "Isabela Silva",
+      "alunoId": "662ba4056760d99873e1610c"
+    }
+  ],
+  "horarios": [
+    {
+      "dia": "segunda-feira",
+      "aulas": [
+        {
+          "horario": "1° aula",
+          "materia": "Matematica",
+          "nomeProfessor": "Aline Hernesto",
+          "professorId": "662af2a0a21fcd3b222cb949"
+        },
+        {
+          "horario": "2° aula",
+          "materia": "Ciências",
+          "nomeProfessor": "Brenda Sthepani",
+          "professorId": "662c6a5bb200394be3e5b208"
+        }
+      ]
+    },
+    {
+      "dia": "terça-feira",
+      "aulas": [
+        {
+          "horario": "1° aula",
+          "materia": "Português",
+          "nomeProfessor": "Aline Hernesto",
+          "professorId": "6609dbba8680de674b45f57c"
+        },
+        {
+          "horario": "2° aula",
+          "materia": "Educação Fisica",
+          "nomeProfessor": "Aline Souza",
+          "professorId": "6609dbba8680de674b45f57c"
+        }
+      ]
+    },
+    {
+      "dia": "quarta-feira",
+      "aulas": [
+        {
+          "horario": "1° aula",
+          "materia": "Matematica",
+          "nomeProfessor": "Aline Hernesto",
+          "professorId": "662af2a0a21fcd3b222cb949"
+        },
+        {
+          "horario": "2° aula",
+          "materia": "Artes",
+          "nomeProfessor": "Maria Paula",
+          "professorId": "6609dc168680de674b45f57d"
+        }
+      ]
+    },
+    {
+      "dia": "quinta-feira",
+      "aulas": [
+        {
+          "horario": "1° aula",
+          "materia": "Português",
+          "nomeProfessor": "Aline Hernesto",
+          "professorId": "662af2a0a21fcd3b222cb949"
+        },
+        {
+          "horario": "2° aula",
+          "materia": "Matematica",
+          "nomeProfessor": "Aline Hernesto",
+          "professorId": "662af2a0a21fcd3b222cb949"
+        }
+      ]
+    },
+    {
+      "dia": "sexta-feira",
+      "aulas": [
+        {
+          "horario": "1° aula",
+          "materia": "Português",
+          "nomeProfessor": "Aline Hernesto",
+          "professorId": "662af2a0a21fcd3b222cb949"
+        },
+        {
+          "horario": "2° aula",
+          "materia": "Ciências",
+          "nomeProfessor": "Brenda Sthepani",
+          "professorId": "662af2a0a21fcd3b222cb949"
+        }
+      ]
+    }
+  ],
+  "professorResponsavel": {
+    "nome": "Aline Hernesto",
+    "professorId": "662af2a0a21fcd3b222cb949",
+    "materia": "pedagogia (geral)"
+  },
+  "professoresAuxiliares": [
+    {
+      "nome": "Luana de Souza",
+      "professorId": "662af3c5a21fcd3b222cb94a",
+      "materia": "Educação Fisisca"
+    },
+    {
+      "nome": "Fernanda de Lima",
+      "professorId": "662afbe9a21fcd3b222cb94b",
+      "materia": "Artes"
+    },
+    {
+      "nome": "Brenda Sthepani",
+      "professorId": "662c6a5bb200394be3e5b208",
+      "materia": "Ciências"
+    }
+  ],
+  "periodo": "manhã"
+}]

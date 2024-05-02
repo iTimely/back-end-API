@@ -1,0 +1,187 @@
+{
+	"info": {
+		"_postman_id": "477a9ad1-fe28-41bf-9a97-6a73d7a0aebb",
+		"name": "iTimely",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24401975",
+		"_collection_link": "https://interstellar-capsule-877502.postman.co/workspace/Team-Workspace~6b3296dc-11c8-44b9-8b33-5e1e95a46ab4/collection/24401975-477a9ad1-fe28-41bf-9a97-6a73d7a0aebb?action=share&source=collection_link&creator=24401975"
+	},
+	"item": [
+		{
+			"name": "Professor",
+			"item": [
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"login\":\"amdBarbosa\",\r\n    \"senha\":\"amdBarbosa123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/professor/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"professor",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getAll",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/professor/getAll",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"professor",
+								"getAll"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addProfessor",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nomeCompleto\": \"João Silva\",\r\n    \"idade\": 40,\r\n    \"materia\": \"Matemática\",\r\n    \"turmas\": [\r\n        {\r\n            \"turmaId\": \"5f84998d3a32a854dc69ae83\",\r\n            \"nome\": \"Turma 5A\"\r\n        },\r\n        {\r\n            \"turmaId\": \"5f84998d3a32a854dc69ae84\",\r\n            \"nome\": \"Turma 4A\"\r\n        }\r\n    ],\r\n    \"login\": \"joaosilva\",\r\n    \"senha\": \"senha123\",\r\n    \"telefone\": \"(11) 98765-4321\",\r\n    \"email\": \"joao.silva@example.com\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/professor/addProfessor",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"professor",
+								"addProfessor"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Turma",
+			"item": [
+				{
+					"name": "Get Turma By ProfessorID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/turma/byProfessor?professorId=662c6a5bb200394be3e5b208",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"turma",
+								"byProfessor"
+							],
+							"query": [
+								{
+									"key": "professorId",
+									"value": "662c6a5bb200394be3e5b208"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "presençaPorTurma",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Chamada",
+			"item": [
+				{
+					"name": "New Chamada",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"professorNome\": \"José Alvez\",\r\n  \"professorId\": \"660978c319b350ebb4af7bab\",\r\n  \"professorMateria\": \"pedagoria (geral)\",\r\n  \"data\": \"2024-05-01\",\r\n  \"periodo\": \"manhã\",\r\n  \"turmaId\": \"662abc8da21fcd3b222cb92a\",\r\n  \"registroPresencas\": [\r\n    {\r\n      \"alunoId\": \"662ab30fa21fcd3b222cb926\",\r\n      \"presente\": true\r\n    },\r\n    {\r\n      \"alunoId\": \"662ae19aa21fcd3b222cb93b\",\r\n      \"presente\": false\r\n    },\r\n    {\r\n      \"alunoId\": \"662ae1cea21fcd3b222cb93c\",\r\n      \"presente\": true\r\n    },\r\n    {\r\n      \"alunoId\": \"662b1221a21fcd3b222cb94d\",\r\n      \"presente\": true\r\n    },\r\n    {\r\n      \"alunoId\": \"662b1237a21fcd3b222cb94e\",\r\n      \"presente\": false\r\n    },\r\n    {\r\n      \"alunoId\": \"662b125da21fcd3b222cb94f\",\r\n      \"presente\": true\r\n    },\r\n    {\r\n      \"alunoId\": \"662b12bba21fcd3b222cb951\",\r\n      \"presente\": true\r\n    },\r\n    {\r\n      \"alunoId\": \"662b12c9a21fcd3b222cb952\",\r\n      \"presente\": true\r\n    },\r\n    {\r\n      \"alunoId\": \"662b12d5a21fcd3b222cb953\",\r\n      \"presente\": true\r\n    },\r\n    {\r\n      \"alunoId\": \"662b1327a21fcd3b222cb954\",\r\n      \"presente\": false\r\n    },\r\n    {\r\n      \"alunoId\": \"662b1335a21fcd3b222cb955\",\r\n      \"presente\": true\r\n    },\r\n    {\r\n      \"alunoId\": \"662b1341a21fcd3b222cb956\",\r\n      \"presente\": true\r\n    },\r\n    {\r\n      \"alunoId\": \"662b134fa21fcd3b222cb957\",\r\n      \"presente\": true\r\n    },\r\n    {\r\n      \"alunoId\": \"662b135ca21fcd3b222cb958\",\r\n      \"presente\": false\r\n    },\r\n    {\r\n      \"alunoId\": \"662ba1dc6760d99873e16103\",\r\n      \"presente\": true\r\n    },\r\n    {\r\n      \"alunoId\": \"662ba1ef6760d99873e16104\",\r\n      \"presente\": true\r\n    },\r\n    {\r\n      \"alunoId\": \"662ba1fb6760d99873e16105\",\r\n      \"presente\": false\r\n    },\r\n    {\r\n      \"alunoId\": \"662ba20a6760d99873e16106\",\r\n      \"presente\": true\r\n    },\r\n    {\r\n      \"alunoId\": \"662ba2186760d99873e16107\",\r\n      \"presente\": true\r\n    },\r\n    {\r\n      \"alunoId\": \"662ba24b6760d99873e16108\",\r\n      \"presente\": true\r\n    }\r\n  ]\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/chamadas/criar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"chamadas",
+								"criar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "chamadaById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/chamadas/663268f9b09a5b5ca3c52eba",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"chamadas",
+								"663268f9b09a5b5ca3c52eba"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
