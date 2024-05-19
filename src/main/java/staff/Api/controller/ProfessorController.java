@@ -21,14 +21,12 @@ public class ProfessorController {
     private final ProfessorService professorService;
 
     @PostMapping("/login")
-    public ResponseEntity<String> login(@RequestBody LoginRequest loginRequest) {
+    public ResponseEntity<?> login(@RequestBody LoginRequest loginRequest) {
         Professor professor = professorService.login(loginRequest.getLogin(), loginRequest.getSenha());
         log.info(String.valueOf(professor));
 
         if (professor != null) {
-            return ResponseEntity.ok("Login bem-sucedido! Bem-vindo, "
-                    + professor.getNomeCompleto() +
-                    " Id: " + professor.getId() + " !");
+            return ResponseEntity.ok(professor); // Retorna o Professor encontrado
         } else {
             return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Login ou senha incorretos.");
         }

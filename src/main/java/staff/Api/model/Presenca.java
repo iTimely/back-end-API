@@ -18,6 +18,6 @@ public class Presenca {
 
 
     public boolean isPresenca() {
-        return true;
+        return presenca;
     }
 }
