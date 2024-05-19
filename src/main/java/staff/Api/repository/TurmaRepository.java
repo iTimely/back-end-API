@@ -23,4 +23,8 @@ public class TurmaRepository {
         Query query = Query.query(criteria);
         return mongoTemplate.find(query, Turma.class);
     }
+
+    public Turma findById(String turmaId) {
+        return mongoTemplate.findById(turmaId, Turma.class);
+    }
 }

@@ -1,4 +1,4 @@
-package staff.Api.model;
+package staff.Api.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -7,8 +7,9 @@ import lombok.Setter;
 @Getter
 @Setter
 @AllArgsConstructor
-public class AlunoList {
-    private String nome;
+public class AlunoRelatorioDto {
     private String alunoId;
-
+    private String nome;
+    private int totalPresencas;
+    private int totalFaltas;
 }
